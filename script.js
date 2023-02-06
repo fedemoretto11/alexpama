@@ -32,7 +32,7 @@ function desplegarMenu () {
 function cambiarFondo() {
     console.log("hola")
 
-    principal.style.backgroundImage = `url(${fotos[index]})`;
+    principal.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(${fotos[index]})`;
 
     index++
 

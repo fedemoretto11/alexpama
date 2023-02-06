@@ -283,7 +283,8 @@
     .seccion-principal {
         height: 100vh;
         width: 100vw;
-        background-image: url("imagenes/batucada-1.jpg");
+        background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("imagenes/batucada-1.jpg");    
+        filter: brightness(100%);    
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -297,6 +298,7 @@
         font-size: 50px;
         padding: 40px;
         color: aliceblue;
+        
     }
     
     .seccion-principal button {
@@ -308,6 +310,7 @@
         padding: 12px 30px;
         cursor: pointer;
         background: none;
+        
     }
 
     .seccion-principal button:hover {
@@ -372,6 +375,7 @@
 
       .main {
         width: 100vw;
+        height: 750px;
         background-color: rgba(0,0,0,0.9668242296918768);
         display: flex;
         justify-content: space-evenly;
@@ -390,8 +394,9 @@
         font-size: 45px;
       }
       .main-izquierda img {
-        height: 450px;
+        height: 500px;
         object-fit: cover;
+        filter: brightness(85%);
         margin-top: 25px;
         box-shadow: -20px 20px #E4498D;
       }
@@ -414,7 +419,7 @@
       .main-derecha p {
         color: #E4498D;
         font-family: 'Nunito', sans-serif;
-        font-size: 32px;
+        font-size: 28px;
         
       }
       
