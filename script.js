@@ -6,7 +6,7 @@ const menu = document.querySelector(".toggle");
 const principal = document.querySelector(".seccion-principal");
 
 // VARIABLES CAMBIO DE FONDO
-var fotos = ["/imagenes/batucada-1.jpg", "/imagenes/rojo-1.jpg", "/imagenes/varios.jpg"] ;
+var fotos = ["imagenes/batucada-1.jpg", "imagenes/rojo-1.jpg", "imagenes/varios.jpg"] ;
 var index = 0;
 
 // VARIABLES CUENTA REGRESIVA

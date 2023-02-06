@@ -62,7 +62,7 @@
     .seccion-principal {
         height: 100vh;
         width: 100vw;
-        background-image: url("/imagenes/batucada-1.jpg");
+        background-image: url("imagenes/batucada-1.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -151,7 +151,7 @@
 
       .main {
         width: 100vw;
-        background-color: #000;
+        background-color: rgba(0,0,0,0.9668242296918768);
         display: flex;
         justify-content: space-evenly;
       }
@@ -192,8 +192,9 @@
 
       .main-derecha p {
         color: #E4498D;
-        font-family: 'Recoleta', sans-serif;
+        font-family: 'Nunito', sans-serif;
         font-size: 32px;
+        
       }
       
 
