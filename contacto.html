@@ -85,51 +85,65 @@
 
         <!-- SECCION INICIO -->
 
-    <section id="inicio">
-
-        <div class="seccion-principal">
-            <h3>¡Vuelve Alexpama, <br>Vuelve con las Deidades!</h3>
-            <a href=""><button>ALEXPAMA 2023</button></a>
-        </div>
-
-    </section>
-
-    <section class="cuenta-regresiva">
-        <h4 class="titulo-cuenta-regresiva">Fiesta Nacional del Carnaval de la Amistad 2023...</h4>
-        <div class="cuenta-regresiva-contenedor">
-			<div class="cuenta-regresiva-item" bis_skin_checked="1">
-                <span class="cuenta-regresiva-item-dias">00</span> 
-                <span class="cuenta-regresiva-etiqueta">Dias</span>
+    <section class="contacto">
+        <h3>Contactanos</h3>
+        <div class="contacto-datos">
+            <div>
+                <h5><i class="bi bi-geo-alt"></i> Comparsa Alexpama</h5>
+                <p>Rivadavia 560, Maipu, Buenos Aires, Argentina</p>
             </div>
-            <div class="cuenta-regresiva-item" bis_skin_checked="1">
-                <span class="cuenta-regresiva-horas">00</span> 
-                <span class="cuenta-regresiva-etiqueta">Horas</span>
+            <div>
+                <h5><i class="bi bi-whatsapp"></i> Nuestro WhatsApp</h5>
+                <p>02268-15511234</p>
             </div>
-            <div class="cuenta-regresiva-item" bis_skin_checked="1">
-                <span class="cuenta-regresiva-minutos">00</span> 
-                <span class="cuenta-regresiva-etiqueta">Minutos</span>
-            </div><div class="cuenta-regresiva-item" bis_skin_checked="1">
-                <span class="cuenta-regresiva-segundos">00</span> 
-                <span class="cuenta-regresiva-etiqueta">Segundos</span>
-            </div>		
+            <div>
+                <h5><i class="bi bi-envelope-fill"></i> Correo electronico</h5>
+                <p>alexpama@alexpama.com.ar</p>
+            </div>
         </div>
-        <p class="pie-cuenta-regresiva">Proxima presentacion Te esperamos en Maipu!</p>
+
+        <div class="contacto-mapa-form">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5687.814416507488!2d-57.882602168147834!3d-36.86215908491005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1675776750224!5m2!1ses!2sar" width="500" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <div class="formulario-contenedor">
+                <h5>Envianos tu mensaje</h5>
+                <p>Dejanos tu consulta y te responderemos tan pronto sea posible</p>
+                <form action="envio.php" method="post">
+                    <div class="name">
+                        <label for="nombre"></label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+
+                        <label for="apellido"></label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                    </div>
+                    <div class="email">
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Correo Electronico" required>
+                    </div>
+                    <div class="asunto">
+                        <label for="asunto"></label>
+                        <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                    </div>
+                    <div class="text-area">
+                        <label for="text-area"></label>
+                        <textarea name="" id="text-area" cols="46" rows="10" placeholder="Tu mensaje" required></textarea>
+                    </div>
+                    <div class="enviar">
+                        <label for="submit"></label>
+                        <button id="submit">Enviar Mensaje</button>
+                    </div>
+
+                </form>
+                
+            </div>
+        </div>
+
+
+
     </section>
 
-    <!-- SECCION PRINCIPAL -->
 
-    <section class="main">
-        <div class="main-izquierda">
-            <h3>SOMOS ALEXPAMA</h3>
-            <img src="imagenes/Mery.jpeg" alt="mery">
-        </div>
-
-        <div class="main-derecha">
-            <h3>La Primer Comparsa de Maipu</h3> 
-            <p>ALEXPAMA significa <b>AL</b>umnos, <b>EX</b>alumnos, <br><b>PA</b>dres y <b>MA</b>estros</p>
-
-        </div>
-    </section>
 
 
 

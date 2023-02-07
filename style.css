@@ -276,6 +276,118 @@
     
         }
 
+            /* ----------------------------------------------------- */
+
+    .contacto {
+        width: 100vw;
+        background-color: rgba(0,0,0,0.9668242296918768); ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: aliceblue;
+    }
+
+    .contacto h3 {
+        font-size: 35px;
+        font-family: 'Nunito', sans-serif;
+        margin: 15px;
+    }
+
+    .contacto-datos {
+        margin: 15px;
+        display: flex;
+        gap: 55px;
+        font-size: 15px;
+    }
+
+    .contacto-datos h5 {
+        margin-bottom: 5px;
+        font-size: 17px;
+
+    }
+
+    .contacto-datos h5 i {
+        padding: 2px;
+        color: #E4498D;
+    }
+
+    .contacto-mapa-form {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .contacto-mapa-form iframe {
+        margin-left: 20px;
+        width: 550px;
+        height: 400px;
+    }
+
+    .formulario-contenedor {
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .formulario-contenedor h5 {
+        font-size: 32px;
+    }
+    .formulario-contenedor p {
+        font-size: 16px;
+        flex-wrap: wrap;
+    }
+
+    .formulario-contenedor form {
+        font-size: 21px;
+    }
+    
+    .formulario-contenedor input {
+        margin: 10px;
+        height: 35px;
+    }
+
+    .formulario-contenedor textarea {
+        margin: 10px;
+    }
+
+    .name input {
+        width: 43%
+    }
+
+    .email input, .asunto input {
+        width: 94%;
+    }
+
+    .enviar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .enviar button {
+        font-size: 16px;
+        margin: 10px;
+        width: 60%;
+        height: 35px;
+        color: aliceblue;
+        border: solid aliceblue;
+        border-radius: 5px;
+        cursor: pointer;
+        background: none;
+    }
+    
+    .enviar button:hover {
+        background-color: aliceblue;
+        color: #E4498D;
+        border: solid #E4498D;
+    }
+
 
 
 @media screen and (min-width:768px) and (max-width: 1023px) {
@@ -517,6 +629,119 @@
         text-decoration: none;
 
     }
+
+    /* ----------------------------------------------------- */
+
+    .contacto {
+        width: 100vw;
+        background-color: rgba(0,0,0,0.9668242296918768); ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: aliceblue;
+    }
+
+    .contacto h3 {
+        font-size: 35px;
+        font-family: 'Nunito', sans-serif;
+        margin: 15px;
+    }
+
+    .contacto-datos {
+        margin: 15px;
+        display: flex;
+        gap: 55px;
+        font-size: 15px;
+    }
+
+    .contacto-datos h5 {
+        margin-bottom: 5px;
+        font-size: 17px;
+
+    }
+
+    .contacto-datos h5 i {
+        padding: 2px;
+        color: #E4498D;
+    }
+
+    .contacto-mapa-form {
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .contacto-mapa-form iframe {
+        margin-left: 40px;
+        width: 300px;
+        height: 450px;
+    }
+
+    .formulario-contenedor {
+        margin: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .formulario-contenedor h5 {
+        font-size: 32px;
+    }
+    .formulario-contenedor p {
+        font-size: 16px;
+        flex-wrap: wrap;
+    }
+
+    .formulario-contenedor form {
+        font-size: 21px;
+    }
+    
+    .formulario-contenedor input {
+        margin: 10px;
+        height: 35px;
+    }
+
+    .formulario-contenedor textarea {
+        margin: 10px;
+    }
+
+    .name input {
+        width: 43%
+    }
+
+    .email input, .asunto input {
+        width: 94%;
+    }
+
+    .enviar {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .enviar button {
+        font-size: 16px;
+        margin: 10px;
+        width: 60%;
+        height: 35px;
+        color: aliceblue;
+        border: solid aliceblue;
+        border-radius: 5px;
+        cursor: pointer;
+        background: none;
+    }
+    
+    .enviar button:hover {
+        background-color: aliceblue;
+        color: #E4498D;
+        border: solid #E4498D;
+    }
 }
 
 
@@ -558,6 +783,11 @@
         color: #E4498D;
         font-weight: bold;
         font-family: 'Recoleta', sans-serif;
+        transition: .3s;
+    }
+
+    .nav ul a:hover {
+        color: #ef9968;
     }
     
     .nav li {
@@ -575,7 +805,11 @@
         font-size: 18px;
         color: #E4498D;
         text-decoration: none;
-        transition: .5s;
+        transition: .3s;
+    }
+
+    .navegador-redes a:hover {
+        color: #ef9968;
     }
     
     .menu-desplegable, .toggle  { 
@@ -757,6 +991,114 @@
         color: aliceblue;
         text-decoration: none;
 
+    }
+
+
+
+    /* ------------------------------------------------- */
+
+    .contacto {
+        width: 100vw;
+        background-color: rgba(0,0,0,0.9668242296918768); ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: aliceblue;
+    }
+
+    .contacto h3 {
+        font-size: 55px;
+        font-family: 'Nunito', sans-serif;
+        margin: 35px;
+    }
+
+    .contacto-datos {
+        margin: 35px;
+        display: flex;
+        gap: 145px;
+        font-size: 15px;
+    }
+
+    .contacto-datos h5 {
+        margin-bottom: 5px;
+        font-size: 17px;
+
+    }
+
+    .contacto-datos h5 i {
+        padding: 3px;
+        color: #E4498D;
+    }
+
+    .contacto-mapa-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 105px;
+    }
+
+    .formulario-contenedor {
+        margin: 55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .formulario-contenedor h5 {
+        font-size: 32px;
+    }
+    .formulario-contenedor p {
+        font-size: 16px;
+        flex-wrap: wrap;
+    }
+
+    .formulario-contenedor form {
+        font-size: 21px;
+    }
+    
+    .formulario-contenedor input {
+        margin: 10px;
+        height: 35px;
+    }
+
+    .formulario-contenedor textarea {
+        margin: 10px;
+    }
+
+    .name input {
+        width: 43%
+    }
+
+    .email input, .asunto input {
+        width: 94%;
+    }
+
+    .enviar {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .enviar button {
+        font-size: 16px;
+        margin: 10px;
+        width: 60%;
+        height: 35px;
+        color: aliceblue;
+        border: solid aliceblue;
+        border-radius: 5px;
+        cursor: pointer;
+        background: none;
+    }
+    
+    .enviar button:hover {
+        background-color: aliceblue;
+        color: #E4498D;
+        border: solid #E4498D;
     }
 
 
