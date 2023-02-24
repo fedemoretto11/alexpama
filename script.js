@@ -1,8 +1,4 @@
 const fechaObjetivo = new Date("02/11/2023 23:00:00")
-
-// VARIABLES MENU RESPONSIVO
-const hamb = document.querySelector(".menu-desplegable");
-const menu = document.querySelector(".toggle");
 const principal = document.querySelector(".seccion-principal");
 
 // VARIABLES CAMBIO DE FONDO
@@ -18,14 +14,6 @@ const milisecondsOfASecond = 1000;
 const milisecondsOfAMinute = milisecondsOfASecond * 60;
 const milisecondsOfAnHour = milisecondsOfAMinute * 60;
 const milisecondsOfADay = milisecondsOfAnHour * 24;
-
-
-// Despliege de menu responsivo 
-
-function desplegarMenu () {
-    menu.classList.toggle("hide-menu")
-    hamb.classList.toggle("cross")
-}
 
 // Cambio de fondo 
 
@@ -57,7 +45,6 @@ function setDate() {
 
 
 
-hamb.addEventListener("click", desplegarMenu);
 setInterval(cambiarFondo,3000);
 setInterval(setDate,1000);
 
