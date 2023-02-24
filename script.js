@@ -1,4 +1,4 @@
-const fechaObjetivo = new Date("02/11/2023 23:00:00")
+const fechaObjetivo = new Date("03/19/2023 23:00:00")
 const principal = document.querySelector(".seccion-principal");
 
 // VARIABLES CAMBIO DE FONDO
@@ -31,15 +31,15 @@ function setDate() {
     const now = new Date()
     const duration = fechaObjetivo - now
 
-    const diasRestantes = Math.floor(duration / milisecondsOfADay);
-    const horasRestantes = Math.floor((duration % milisecondsOfADay) / milisecondsOfAnHour);
-    const minutosRestantes = Math.floor((duration % milisecondsOfAnHour) / milisecondsOfAMinute);
-    const segundosRestantes = Math.floor((duration % milisecondsOfAMinute) / milisecondsOfASecond);
+    const diasRestantes = (Math.floor(duration / milisecondsOfADay)).toString().padStart(2,"0");
+    const horasRestantes = (Math.floor((duration % milisecondsOfADay) / milisecondsOfAnHour)).toString().padStart(2,"0");
+    const minutosRestantes = (Math.floor((duration % milisecondsOfAnHour) / milisecondsOfAMinute)).toString().padStart(2,"0");
+    const segundosRestantes = (Math.floor((duration % milisecondsOfAMinute) / milisecondsOfASecond)).toString().padStart(2,"0");
 
-    dias.textContent = diasRestantes;
-    horas.textContent = horasRestantes;
-    minutos.textContent = minutosRestantes;
-    segundos.textContent = segundosRestantes;
+    dias.textContent = diasRestantes <= 0 ? 00 : diasRestantes;
+    horas.textContent = horasRestantes <= 0 ? 00 : horasRestantes;
+    minutos.textContent = minutosRestantes <= 0 ? 00 : minutosRestantes;
+    segundos.textContent = segundosRestantes <= 0 ? 00 : segundosRestantes;
 }
 
 
