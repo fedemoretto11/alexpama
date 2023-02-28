@@ -1,11 +1,16 @@
-const fechaObjetivo = new Date("03/19/2023 23:00:00")
-const principal = document.querySelector(".seccion-principal");
+// VARIABLES PROXIMA FIESTA
+let proximaFiesta = "Fiesta Nacional del Carnaval de la Amistad 2023"
+let pieFiesta = "Gracias!!! Nos estamos viendo el año que viene!"
+const fechaObjetivo = new Date("03/15/2023 23:00:00")
 
 // VARIABLES CAMBIO DE FONDO
+const principal = document.querySelector(".seccion-principal");
 var fotos = ["imagenes/verde-1.jpg", "imagenes/rojo-1.jpg", "imagenes/varios.jpg","imagenes/viejas-epocas.jpg","imagenes/batucada-1.jpg"] ;
 var index = 0;
 
 // VARIABLES CUENTA REGRESIVA
+const titulo = document.querySelector(".titulo-cuenta-regresiva");
+const pie = document.querySelector(".pie-cuenta-regresiva");
 const dias = document.querySelector(".cuenta-regresiva-item-dias");
 const horas = document.querySelector(".cuenta-regresiva-horas");
 const minutos = document.querySelector(".cuenta-regresiva-minutos");
@@ -14,6 +19,11 @@ const milisecondsOfASecond = 1000;
 const milisecondsOfAMinute = milisecondsOfASecond * 60;
 const milisecondsOfAnHour = milisecondsOfAMinute * 60;
 const milisecondsOfADay = milisecondsOfAnHour * 24;
+
+
+// colocacion titulo
+titulo.innerHTML = proximaFiesta;
+pie.innerHTML = pieFiesta;
 
 // Cambio de fondo 
 
@@ -36,10 +46,10 @@ function setDate() {
     const minutosRestantes = (Math.floor((duration % milisecondsOfAnHour) / milisecondsOfAMinute)).toString().padStart(2,"0");
     const segundosRestantes = (Math.floor((duration % milisecondsOfAMinute) / milisecondsOfASecond)).toString().padStart(2,"0");
 
-    dias.textContent = diasRestantes <= 0 ? 00 : diasRestantes;
-    horas.textContent = horasRestantes <= 0 ? 00 : horasRestantes;
-    minutos.textContent = minutosRestantes <= 0 ? 00 : minutosRestantes;
-    segundos.textContent = segundosRestantes <= 0 ? 00 : segundosRestantes;
+    dias.textContent = diasRestantes <= 0 ? 00.toString().padStart(2,"00") : diasRestantes;
+    horas.textContent = horasRestantes <= 0 ? 00.toString().padStart(2,"00") : horasRestantes;
+    minutos.textContent = minutosRestantes <= 0 ? 00.toString().padStart(2,"00") : minutosRestantes;
+    segundos.textContent = segundosRestantes <= 0 ? 00.toString().padStart(2,"00") : segundosRestantes;
 }
 
 
