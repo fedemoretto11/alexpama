@@ -1,11 +1,11 @@
 // VARIABLES PROXIMA FIESTA
 let proximaFiesta = "Fiesta Nacional del Carnaval de la Amistad 2023"
-let pieFiesta = "Gracias!!! Nos estamos viendo el año que viene!"
-const fechaObjetivo = new Date("03/15/2023 23:00:00")
+let pieFiesta = "Nos vemos en Maipu, pcia Buenos Aires"
+const fechaObjetivo = new Date("02/15/2023 23:00:00")
 
 // VARIABLES CAMBIO DE FONDO
 const principal = document.querySelector(".seccion-principal");
-var fotos = ["imagenes/verde-1.jpg", "imagenes/rojo-1.jpg", "imagenes/varios.jpg","imagenes/viejas-epocas.jpg","imagenes/batucada-1.jpg"] ;
+var fotos = ["img/verde-1.jpg", "img/rojo-1.jpg", "img/varios.jpg","img/viejas-epocas.jpg","img/batucada-1.jpg"] ;
 var index = 0;
 
 // VARIABLES CUENTA REGRESIVA
@@ -23,7 +23,10 @@ const milisecondsOfADay = milisecondsOfAnHour * 24;
 
 // colocacion titulo
 titulo.innerHTML = proximaFiesta;
-pie.innerHTML = pieFiesta;
+pie.innerHTML = pieFiesta
+
+
+
 
 // Cambio de fondo 
 
@@ -57,6 +60,8 @@ function setDate() {
 
 setInterval(cambiarFondo,3000);
 setInterval(setDate,1000);
+
+
 
 
 

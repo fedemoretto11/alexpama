@@ -52,7 +52,7 @@
     .seccion-principal {
         height: 100vh;
         width: 100vw;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("imagenes/batucada-1.jpg");    
+        background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("../img/batucada-1.jpg");    
         filter: brightness(100%);    
         background-repeat: no-repeat;
         background-position: center;
@@ -142,67 +142,65 @@
 
       /* ------------------------------ */
 
-      .main {
+    .main {
         width: 100vw;
         margin-top: -20px;
         background-color: var(--light);
-      }
+    }
 
-      .main-izquierda {
+    .main-izquierda {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         margin: 75px 0 0 75px;
-      }
+    }
 
-      .main-izquierda h3 {
+    .main-izquierda h3 {
         color: var(--primaryDark);
         font-family: 'Golos Text', sans-serif;
         font-size: 45px;
-      }
-      .main-izquierda img {
+    }
+    .main-izquierda img {
         height: 500px;
         object-fit: cover;
         filter: brightness(85%);
-        margin-top: 25px;
-        margin-bottom: 126px;
+        margin: 25px 10px 125px 0;
         box-shadow: -20px 20px var(--primary);
-      }
+    }
 
 
-      .main-derecha {
+    .main-derecha {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 75px 0 0 75px;
         color: #eee;
-      }
+    }
 
-      .main-derecha h3 {
+    .main-derecha h3 {
         color: var(--primaryDark);
         font-family: 'Golos Text', sans-serif;
         font-size: 45px;
-      }
+    }
 
-      .main-derecha p {
+    .main-derecha p {
         color: var(--primaryDark);
         font-family: 'Nunito', sans-serif;
         font-size: 28px;
         
-      }
-      
+    }
 
-
+/* FOOTER */
 
     .footer {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        width: 100vw;
         background-color: var(--primaryDark);
         border-top: solid .1px var(--light);
-      }
+    }
 
     .footer-copyright {
+        margin: 0;
+        padding: 0;
         font-size: 18px;
         color: var(--light);
         font-family: 'Nunito', sans-serif;
