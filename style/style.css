@@ -21,6 +21,7 @@
 
     .navbar {
         background-color: #333;
+        width: 100%;
     }
 
     .navbar a{
@@ -51,7 +52,7 @@
     
     .seccion-principal {
         height: 100vh;
-        width: 100vw;
+        width: 100%;
         background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("../img/batucada-1.jpg");    
         filter: brightness(100%);    
         background-repeat: no-repeat;
@@ -164,8 +165,8 @@
         height: 500px;
         object-fit: cover;
         filter: brightness(85%);
-        margin: 25px 10px 125px 0;
-        box-shadow: -20px 20px var(--primary);
+        margin: 25px 10px 25px 0;
+        box-shadow: -20px -20px var(--primary);
     }
 
 
@@ -193,7 +194,7 @@
 /* FOOTER */
 
     .footer {
-        width: 100vw;
+        width: 100%;
         background-color: var(--primaryDark);
         border-top: solid .1px var(--light);
     }
@@ -221,30 +222,37 @@
     }
 
 
+    /* carrousel */
+
+
+
 
     /* ------------------------------------------------- */
 
     .contacto {
-        width: 100vw;
-        background-color: rgba(0,0,0,0.9668242296918768); ;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        color: aliceblue;
+        width: 100%;
+        background: rgb(242,242,242);
+        background: linear-gradient(0deg, rgba(242,242,242,1) 49%, #B03A71 100%);
+        color: var(--Dark);
+        text-shadow: 0 0 10px var(--primaryDark);
+        
     }
 
     .contacto h3 {
         font-size: 55px;
-        font-family: 'Nunito', sans-serif;
-        margin: 35px;
+        font-family: 'Golos Text', sans-serif;
+        text-shadow: 0 0 10px var(--primaryDark);
+        color: var(--light);
     }
 
     .contacto-datos {
         margin: 35px;
         display: flex;
-        gap: 145px;
+        justify-content: space-evenly;
         font-size: 15px;
+        color: var(--light);
+        text-shadow: 0 0 10px var(--primaryDark);
+        font-family: 'Golos Text', sans-serif;
     }
 
     .contacto-datos h5 {
@@ -255,7 +263,7 @@
 
     .contacto-datos h5 i {
         padding: 3px;
-        color: #E4498D;
+        color: var(--light);
     }
 
     .contacto-mapa-form {
@@ -266,6 +274,13 @@
         gap: 105px;
     }
 
+    .contacto-mapa-form iframe {
+        width: 100%;
+        box-shadow: 0 0 3px 0 #000;
+        margin: 0;
+        padding: 0;
+    }
+
     .formulario-contenedor {
         margin: 55px;
         display: flex;
@@ -273,7 +288,7 @@
         justify-content: center;
         align-items: center;
         gap: 12px;
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Golos Text', sans-serif;
     }
 
     .formulario-contenedor h5 {
@@ -288,21 +303,33 @@
         font-size: 21px;
     }
     
-    .formulario-contenedor input {
-        margin: 10px;
-        height: 35px;
+    .formulario-contenedor input::placeholder, .formulario-contenedor textarea::placeholder {
+        font-size: 14px;
+        text-align:start;
+        font-family: 'Golos Text', sans-serif;
+    }
+
+    .formulario-contenedor input:focus, 
+    .formulario-contenedor textarea:focus, 
+    .formulario-contenedor input:active, 
+    .formulario-contenedor textarea:active {
+        outline: none;
+        background-color: var(--light);
+        border: solid var(--primaryDark);
+
     }
 
     .formulario-contenedor textarea {
-        margin: 10px;
+        width: 100%;
+        color: var(--primaryDark);
+
     }
 
-    .name input {
-        width: 43%
-    }
+    .name input, .email input, .asunto input {
+        width: 100%;
+        font-family: 'Golos Text', sans-serif;
+        color: var(--primaryDark);
 
-    .email input, .asunto input {
-        width: 94%;
     }
 
     .enviar {
@@ -311,20 +338,19 @@
     }
 
     .enviar button {
+        width: 100%;
         font-size: 16px;
         margin: 10px;
-        width: 60%;
-        height: 35px;
-        color: aliceblue;
-        border: solid aliceblue;
+        color: var(--primaryDark);
+        border: solid var(--primaryDark);
         border-radius: 5px;
         cursor: pointer;
         background: none;
     }
     
     .enviar button:hover {
-        background-color: aliceblue;
-        color: #E4498D;
-        border: solid #E4498D;
+        background-color: var(--primaryDark);
+        color: var(--light);
+        border: solid var(--primaryDark);
     }
 
