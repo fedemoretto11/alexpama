@@ -407,6 +407,7 @@
     opacity: 0.8;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 .argumento-titulo {
@@ -419,11 +420,15 @@
 }
 .argumento-texto {
     padding: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
     font-size: 1.3rem;
     text-align: center;
     margin-top: 80px;
     background-color: rgba(0, 0, 0, .7);
     width: 100%;
+    max-width: 700px;
+    
 }
 
 /* ESCUADRAS */
@@ -441,10 +446,10 @@
 
 .desarrollo-titulo {
     color: var(--light);
-    padding: 20px;
+    padding: 16px;
     font-size: 3rem;
     margin-top: 0px;
-    padding: 40px;
+    padding: 20px;
     background-color: rgba(0, 0, 0, .9);
     width: 100%;
 }
@@ -473,3 +478,10 @@
     object-fit: cover;
 }
 
+
+/* GALERIA */
+
+#galeria {
+    margin: 10px;
+    background-color: var(--light);
+}
