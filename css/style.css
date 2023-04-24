@@ -1,0 +1,491 @@
+@charset "UTF-8";
+:root {
+  --primary: #D9488B;
+  --primaryDark:#B03A71;
+  --secondary:#038C33;
+  --third:#F2E7AE;
+  --fourth:#F2B705;
+  --fifth:#F28F6B;
+  --dark:#262020;
+  --light:#F2F2F2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  width: 100%;
+  background-color: var(--primaryDark);
+  border-top: solid 0.1px var(--light);
+}
+
+.footer-copyright {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: var(--light);
+  font-family: "Nunito", sans-serif;
+}
+
+.footer-redes {
+  display: flex;
+}
+
+.footer-redes a {
+  padding: 10px;
+  font-size: 18px;
+  color: var(--light);
+  text-decoration: none;
+}
+
+#mailto {
+  visibility: hidden;
+}
+
+.navbar {
+  background-color: #333;
+  margin: 0;
+  width: 100%;
+}
+
+.navbar a {
+  color: var(--primary);
+  font-size: 20px;
+}
+
+.navegador-redes {
+  display: flex;
+}
+
+.navegador-redes a {
+  padding: 10px;
+  font-size: 16px;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.navegador-redes a:hover {
+  color: #000;
+}
+
+.contacto {
+  width: 100%;
+  background: rgb(242, 242, 242);
+  background: linear-gradient(0deg, rgb(242, 242, 242) 49%, #B03A71 100%);
+  color: var(--Dark);
+  text-shadow: 0 0 10px var(--primaryDark);
+}
+
+.contacto h3 {
+  padding-top: 15px;
+  font-size: 3.5rem;
+  font-family: "Golos Text", sans-serif;
+  text-shadow: 0 0 10px var(--primaryDark);
+  color: var(--light);
+}
+
+.contacto-datos {
+  margin: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  color: var(--light);
+  text-shadow: 0 0 10px var(--primaryDark);
+  font-family: "Golos Text", sans-serif;
+}
+
+.contacto-datos h5 {
+  margin-bottom: 5px;
+}
+
+.contacto-datos h5 i {
+  padding: 3px;
+  color: var(--light);
+}
+
+.contacto-mapa-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 105px;
+}
+
+.contacto-mapa-form iframe {
+  width: 100%;
+  box-shadow: 0 0 3px 0 #000;
+  margin: 0;
+  padding: 0;
+}
+
+.formulario-contenedor {
+  margin: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-family: "Golos Text", sans-serif;
+}
+
+.formulario-contenedor h5 {
+  font-size: 2rem;
+}
+
+.formulario-contenedor p {
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+
+.formulario-contenedor form {
+  font-size: 1.2rem;
+}
+
+.formulario-contenedor input::-moz-placeholder, .formulario-contenedor textarea::-moz-placeholder {
+  font-size: 0.8rem;
+  text-align: start;
+  font-family: "Golos Text", sans-serif;
+}
+
+.formulario-contenedor input::placeholder, .formulario-contenedor textarea::placeholder {
+  font-size: 0.8rem;
+  text-align: start;
+  font-family: "Golos Text", sans-serif;
+}
+
+.formulario-contenedor input:focus,
+.formulario-contenedor textarea:focus,
+.formulario-contenedor input:active,
+.formulario-contenedor textarea:active {
+  outline: none;
+  background-color: var(--light);
+  border: solid var(--primaryDark);
+}
+
+.formulario-contenedor textarea {
+  width: 100%;
+  color: var(--primaryDark);
+}
+
+.name input, .email input, .asunto input {
+  width: 100%;
+  font-family: "Golos Text", sans-serif;
+  color: var(--primaryDark);
+}
+
+.enviar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.enviar button {
+  width: 100%;
+  font-size: 16px;
+  margin: 10px;
+  color: var(--primaryDark);
+  border: solid var(--primaryDark);
+  border-radius: 5px;
+  cursor: pointer;
+  background: none;
+}
+
+.enviar button:hover {
+  background-color: var(--primaryDark);
+  color: var(--light);
+  border: solid var(--primaryDark);
+}
+
+#mailto {
+  visibility: hidden;
+}
+
+.navbar {
+  background-color: #333;
+  margin: 0;
+  width: 100%;
+}
+
+.navbar a {
+  color: var(--primary);
+  font-size: 20px;
+}
+
+.navegador-redes {
+  display: flex;
+}
+
+.navegador-redes a {
+  padding: 10px;
+  font-size: 16px;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.navegador-redes a:hover {
+  color: #000;
+}
+
+#galeria {
+  margin: 10px;
+  background-color: var(--light);
+}
+
+/* AÑOS ANTERIORES */
+.titulo-años-anteriores {
+  margin: 0px;
+  padding-top: 10px;
+  height: calc(100vh - 85px);
+  font-family: "Golos Text", sans-serif;
+  color: var(--primaryDark);
+  background-color: var(--light);
+}
+
+.seccion-principal {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/batucada-1.jpg");
+  filter: brightness(100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.seccion-principal h3 {
+  font-size: 50px;
+  padding: 40px;
+  color: aliceblue;
+}
+
+.seccion-principal button {
+  color: aliceblue;
+  border: solid aliceblue;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 0 0 0 40px;
+  padding: 12px 30px;
+  cursor: pointer;
+  background: none;
+}
+
+.seccion-principal button:hover {
+  background-color: aliceblue;
+  color: #E4498D;
+  border: solid #E4498D;
+}
+
+.cuenta-regresiva {
+  width: 100%;
+  /* height: 400px; */
+  background: rgb(242, 242, 242);
+  background: linear-gradient(0deg, rgb(242, 242, 242) 46%, rgb(217, 72, 139) 100%);
+  box-shadow: 0 0 3px 0px #333;
+}
+
+.titulo-cuenta-regresiva {
+  padding: 15px 0;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: var(--light);
+  font-family: "Golos Text", sans-serif;
+  text-align: center;
+}
+
+.pie-cuenta-regresiva {
+  padding: 15px 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: var(--primaryDark);
+  font-family: "Golos Text", sans-serif;
+  text-align: center;
+}
+
+.cuenta-regresiva-contenedor {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 60px;
+  color: var(--primaryDark);
+  font-family: "Golos Text", sans-serif;
+}
+
+.cuenta-regresiva-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px 0 50px;
+}
+
+.cuenta-regresiva-etiqueta {
+  font-size: 18px;
+  padding-top: 0;
+}
+
+.main {
+  width: 100%;
+  margin-top: -20px;
+  background-color: var(--light);
+}
+
+.main-izquierda {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 75px 0 0 75px;
+}
+
+.main-izquierda h3 {
+  color: var(--primaryDark);
+  font-family: "Golos Text", sans-serif;
+  font-size: 45px;
+}
+
+.main-izquierda img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(85%);
+  margin: 25px 10px 25px 0;
+  box-shadow: -20px -20px var(--primary);
+}
+
+.main-derecha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 75px 0 0 75px;
+  color: #eee;
+}
+
+.main-derecha h3 {
+  color: var(--primaryDark);
+  font-family: "Golos Text", sans-serif;
+  font-size: 45px;
+}
+
+.main-derecha p {
+  color: var(--primaryDark);
+  font-family: "Nunito", sans-serif;
+  font-size: 28px;
+}
+
+.img-principal {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("../img/verde-1.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.historia {
+  width: 100%;
+  margin: 0px;
+  padding: 1.3rem;
+  background: var(--light);
+  color: var(--primaryDark);
+  font-family: "Golos Text", sans-serif;
+}
+
+.historia p {
+  max-width: 60rem;
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+.historia h3 {
+  font-size: 3rem;
+}
+
+.prueba {
+  width: 100%;
+  height: calc(100vh - 85px);
+  background-color: #f2f2f2;
+  opacity: 0.8;
+  background-size: 103% 105%;
+  background-position: 0px 0px;
+  background-image: repeating-conic-gradient(from 202deg at 45% 55%, #B03A71 62%, #262020 69%);
+}
+
+.prueba img {
+  max-height: 500px;
+}
+
+.argumento {
+  color: var(--light);
+  font-family: "Golos Text", sans-serif;
+  background-image: url("../img/plumas.jpg");
+  opacity: 0.8;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.argumento-titulo {
+  padding: 20px;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.argumento-texto {
+  padding: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  max-width: 700px;
+}
+
+.desarrollo-por-escuadra {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("../img/verde-1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.8;
+  font-family: "Golos Text", sans-serif;
+}
+
+.desarrollo-titulo {
+  color: var(--light);
+  padding: 16px;
+  font-size: 3rem;
+  margin-top: 0px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+}
+
+.desarrollo-titulo h3 {
+  font-size: 3rem;
+}
+
+.escuadra {
+  color: var(--light);
+  padding: 20px;
+  font-size: 1.3rem;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+}
+
+.imagen_escuadra {
+  max-width: 200px;
+}
+
+.imagen_escuadra img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 // VARIABLES PROXIMA FIESTA
 let proximaFiesta = "Fiesta Nacional del Carnaval de la Amistad 2023"
 let pieFiesta = "La Fiesta ya comenzo! Te esperamos en Maipu!"
-const fechaObjetivo = new Date("02/15/2023 23:00:00")
+const fechaObjetivo = new Date("04/15/2023 23:00:00")
 
 // VARIABLES CAMBIO DE FONDO
 const principal = document.querySelector(".seccion-principal");
