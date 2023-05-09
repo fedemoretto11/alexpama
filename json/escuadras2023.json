@@ -1,0 +1,58 @@
+[
+  {
+    "numero": "1",
+    "nombre": "Iris",
+    "descripcion": "Con los colores de la luz, del arcoíris, conectando el mundo de los dioses con la humanidad y anunciadora del fin de la tormenta. Es también una de las diosas del mar y del cielo",
+    "enlaceImagen": "../img/dioses/iris.jpg",
+    "altImagen": "Diosa Iris"
+  },
+  {
+    "numero": "2",
+    "nombre": "Marte",
+    "descripcion": "En dorado y rojo, con su irrupción de repiques que anuncian la entrada del dios romano de la guerra y el señor del hierro",
+    "enlaceImagen": "../img/dioses/marte.jpg",
+    "altImagen": "Dios Marte"
+  },
+  {
+    "numero": "3",
+    "nombre": "Ceres",
+    "descripcion": "En verdes y dorados, la diosa romana de la agricultura, del crecimiento de las plantas y de las buenas cosechas",
+    "enlaceImagen": "../img/dioses/ceres.jpg",
+    "altImagen": "Dios Ceres"
+  },
+  {
+    "numero": "4",
+    "nombre": "Venus",
+    "descripcion": "En coral y dorado, la diosa romana del amor, la belleza y la fertilidad. También era la protectora de la naturaleza y los jardines",
+    "enlaceImagen": "../img/dioses/venus.jpg",
+    "altImagen": "Diosa Venus"
+  },
+  {
+    "numero": "5",
+    "nombre": "Neptuno",
+    "descripcion": "En verde esmeralda y plateado. El dios del agua y el mar",
+    "enlaceImagen": "../img/dioses/neptuno.jpg",
+    "altImagen": "Dios Neptuno"
+  },
+  {
+    "numero": "6",
+    "nombre": "Apolo",
+    "descripcion": "Representando los dones de predecir el futuro y curar, el orden y la armonía del mundo aparece APOLO, en rojo tornasol y naranja",
+    "enlaceImagen": "../img/dioses/apolo.jpg",
+    "altImagen": "Dios Apolo"
+  },
+  {
+    "numero": "7",
+    "nombre": "Minerva",
+    "descripcion": "En turquesa y dorado, la diosa de las artes, la sabiduría y las técnicas de la guerra. También se le consideraba la protectora de la ciudad, y los artesanos la tenían como patrona",
+    "enlaceImagen": "../img/dioses/minerva.jpg",
+    "altImagen": "Dioa Minerva"
+  },
+  {
+    "numero": "8",
+    "nombre": "Pluton",
+    "descripcion": "En azules y violetas, el Dios de la muerte y gobernaba el inframundo, donde vivía de forma feroz y despiadada impidiendo la salida a quienes pretendían escapar de los infiernos",
+    "enlaceImagen": "../img/dioses/pluton.jpg",
+    "altImagen": "Dios Pluton"
+  }
+]

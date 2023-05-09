@@ -1,0 +1,19 @@
+@media screen and (max-width: 749px) {
+  .escuadras {
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .texto,
+  #escuadra-titulo {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .imagen {
+    padding: 10px;
+    max-width: 150px;
+  }
+}
