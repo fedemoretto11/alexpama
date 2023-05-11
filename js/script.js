@@ -1,7 +1,7 @@
 // VARIABLES PROXIMA FIESTA
-let proximaFiesta = "Fiesta Nacional del Carnaval de la Amistad 2023"
-let pieFiesta = "La Fiesta ya comenzo! Te esperamos en Maipu!"
-const fechaObjetivo = new Date("04/15/2023 23:00:00")
+let proximaFiesta = "Fiesta Nacional del Carnaval de la Amistad 2024"
+let pieFiesta = "Te esperamos en Maipu!"
+const fechaObjetivo = new Date("02/15/2024 21:00:00")
 
 
 // VARIABLES CUENTA REGRESIVA
@@ -29,7 +29,9 @@ function cambiarFondo() {
   fetch("../json/imagenesCarrousel.json")
     .then(response => response.json())
     .then(data => {
-      principal.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(${data[index].enlace})`
+      principal.style.transition = "background-color 5s, background-image 5s";
+      principal.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(${data[index].enlace})`;
+      principal.style.backgroundColor = data[index].color;
       });
   index++
   if (index == 5) {index = 0}   

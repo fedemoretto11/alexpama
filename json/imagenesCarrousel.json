@@ -1,22 +1,27 @@
 [
   {
     "enlace":"img/verde-1.jpg",
-    "alt": "1"
+    "alt": "1",
+    "color": "rgba(0, 0, 0, 0.60)"
   },
   {
     "enlace":"img/rojo-1.jpg",
-    "alt": "2"
+    "alt": "2",
+    "color": "rgba(0, 0, 0, 0.60)"
   },
   {
     "enlace":"img/varios.jpg",
-    "alt": "3"
+    "alt": "3",
+    "color": "rgba(0, 0, 0, 0.60)"
   },
   {
     "enlace":"img/viejas-epocas.jpg",
-    "alt": "4"
+    "alt": "4",
+    "color": "rgba(0, 0, 0, 0.60)"
   },
   {
     "enlace":"img/batucada-1.jpg",
-    "alt": "5"
+    "alt": "5",
+    "color": "rgba(0, 0, 0, 0.60)"
   }
 ]
