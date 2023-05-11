@@ -26,7 +26,7 @@ pie.innerHTML = pieFiesta
 var index = 0;
 function cambiarFondo() {
   const principal = document.querySelector(".seccion-principal");
-  fetch("../json/imagenesCarrousel.json")
+  fetch("./json/imagenesCarrousel.json")
     .then(response => response.json())
     .then(data => {
       principal.style.transition = "background-color 5s, background-image 5s";
