@@ -1,32 +1,29 @@
-#mailto {
-  visibility: hidden;
-}
-
 .navbar {
-  background-color: #333;
   margin: 0;
   width: 100%;
+  a{
+    color: $primario;
+    font-size: 20px;
+    transition: .3s;
+    &:hover{
+      color: $oscuro;
+    }
   }
-
-.navbar a{
-  color: var(--primary);
-  font-size: 20px;
-}
-
+  
+  }
 
 
 .navegador-redes {
   display: flex;
+  a {
+    padding: 10px;
+    font-size: 16px;
+    color: $primario;
+    text-decoration: none;
+    transition: .3s;
+    &:hover {
+      color: $oscuro;
+    }
+  }
 }
 
-
-.navegador-redes a {
-  padding: 10px;
-  font-size: 16px;
-  color: var(--primary);
-  text-decoration: none;
-}
-
-.navegador-redes a:hover {
-  color: #000;
-}

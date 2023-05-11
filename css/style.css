@@ -10,9 +10,10 @@
   --light:#F2F2F2;
 }
 
-* {
+body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .footer {
@@ -40,34 +41,31 @@
   text-decoration: none;
 }
 
-#mailto {
-  visibility: hidden;
-}
-
 .navbar {
-  background-color: #333;
   margin: 0;
   width: 100%;
 }
-
 .navbar a {
-  color: var(--primary);
+  color: #D9488B;
   font-size: 20px;
+  transition: 0.3s;
+}
+.navbar a:hover {
+  color: #262020;
 }
 
 .navegador-redes {
   display: flex;
 }
-
 .navegador-redes a {
   padding: 10px;
   font-size: 16px;
-  color: var(--primary);
+  color: #D9488B;
   text-decoration: none;
+  transition: 0.3s;
 }
-
 .navegador-redes a:hover {
-  color: #000;
+  color: #262020;
 }
 
 .contacto {
@@ -202,29 +200,30 @@
 }
 
 .navbar {
-  background-color: #333;
   margin: 0;
   width: 100%;
 }
-
 .navbar a {
-  color: var(--primary);
+  color: #D9488B;
   font-size: 20px;
+  transition: 0.3s;
+}
+.navbar a:hover {
+  color: #262020;
 }
 
 .navegador-redes {
   display: flex;
 }
-
 .navegador-redes a {
   padding: 10px;
   font-size: 16px;
-  color: var(--primary);
+  color: #D9488B;
   text-decoration: none;
+  transition: 0.3s;
 }
-
 .navegador-redes a:hover {
-  color: #000;
+  color: #262020;
 }
 
 #galeria {
@@ -374,33 +373,6 @@
   font-size: 28px;
 }
 
-.img-principal {
-  width: 100vw;
-  height: 90vh;
-  background-image: url("../img/verde-1.jpg");
-  background-position: bottom;
-  background-size: cover;
-}
-
-.historia {
-  width: 100%;
-  margin: 0px;
-  padding: 1.3rem;
-  background: var(--light);
-  color: var(--primaryDark);
-  font-family: "Golos Text", sans-serif;
-}
-
-.historia p {
-  max-width: 60rem;
-  text-align: justify;
-  font-size: 1.3rem;
-}
-
-.historia h3 {
-  font-size: 3rem;
-}
-
 .prueba {
   width: 100%;
   height: calc(100vh - 85px);
@@ -519,6 +491,41 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.img-principal {
+  width: 100vw;
+  height: calc(100vh - 91px);
+  background-image: url("../img/verde-1.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.historia {
+  width: 100%;
+  margin: 0px;
+  padding: 1.3rem;
+  background: #F2F2F2;
+  color: #B03A71;
+  font-family: "Golos Text", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.historia p {
+  max-width: 60rem;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #B03A71;
+  font-family: "Golos Text", sans-serif;
+}
+.historia h3 {
+  font-size: 3rem;
+}
+
+.texto {
+  margin: 0;
 }
 
 @media screen and (max-width: 749px) {

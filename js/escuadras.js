@@ -1,13 +1,15 @@
-const escuadras = document.getElementById("lista-escuadras");
-const fragment = document.createDocumentFragment();
+
 
 fetch('../json/escuadras2023.json')
   .then(response => response.json())
   .then(data => {
-    
+    const escuadras = document.getElementById("lista-escuadras");
+    const fragment = document.createDocumentFragment();
     for (datos of data) {
       
       const {numero,nombre,descripcion, enlaceImagen, altImagen} = datos;
+      let texto = numero == 2 ? "2 - Batucada" : numero
+      
       const div1 = document.createElement('div');
       const h2 = document.createElement('h2');
       const h1 = document.createElement('h1');
@@ -22,7 +24,7 @@ fetch('../json/escuadras2023.json')
 
 
       h1.innerText = nombre;
-      h2.innerText = `Escuadra ${numero}`;
+      h2.innerText = `Escuadra ${texto}`;
       p.innerText = descripcion;
       img.src = enlaceImagen;
       img.alt = altImagen;
