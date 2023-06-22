@@ -1,7 +1,5 @@
 # Proyecto Alexpama / Alexpama Project
 
-[![Español](https://img.shields.io/badge/Idioma-Español-brightgreen.svg)](README.md)
-[![English](https://img.shields.io/badge/Language-English-brightgreen.svg)](README_EN.md)
 
 ## Descripción / Description
 
