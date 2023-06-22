@@ -1,12 +1,11 @@
-# ESPAÑOL
+# Proyecto Alexpama / Alexpama Project
 
+[![Español](https://img.shields.io/badge/Idioma-Español-brightgreen.svg)](README.md)
+[![English](https://img.shields.io/badge/Language-English-brightgreen.svg)](README_EN.md)
 
-## Proyecto Alexpama
+## Descripción / Description
 
-
-### Link del Proyecto: https://fedemoretto11.github.io/alexpama/pages/contacto.html
-
-### Descripcion
+[Español]
 
 Se ha realizado un proyecto de diseño web para la comparsa Alexpama, siguiendo buenas prácticas en el desarrollo. El sitio web se construyó utilizando HTML, CSS, Sass y JavaScript para garantizar un diseño moderno y una experiencia interactiva para los usuarios.
 
@@ -18,37 +17,7 @@ Del mismo modo, la inclusión de fotos y otros archivos multimedia también est�
 
 A pesar de estos aspectos pendientes, el proyecto de diseño web para la comparsa Alexpama ha logrado implementar buenas prácticas y utilizar tecnologías como HTML, CSS, Sass y JavaScript para crear un sitio web atractivo y funcional. Una vez se completen los elementos pendientes, el sitio web estará completo y listo para ofrecer una experiencia completa a los visitantes y usuarios.
 
-
-### Estructura
-
-Estructura del repositorio El repositorio está organizado de la siguiente manera:
-
-img/: contiene los archivos de imágenes
-
-ico/: contiene el favicono
-
-css/: contiene los archivos CSS generados a partir de los archivos SASS.
-
-js/: contiene el archivo JavaScript que se agregó al proyecto.
-
-json/: contiene archivos json con variables para los scripts
-
-
-pages/: contiene los demas arhcivos HTMLK (Contacto, Nosotros, Anteriores, Galeria, Presentacion Actual)
-
-index.html: es el archivo HTML principal del sitio web.
-
-_____
-
-
-# ENGLISH
-
-
-## Alexpama Project
-
-### Project Link: https://fedemoretto11.github.io/alexpama/pages/contacto.html
-
-### Description
+[English]
 
 A web design project was carried out for the comparsa Alexpama, following best practices in development. The website was built using HTML, CSS, Sass, and JavaScript to ensure a modern design and an interactive experience for users.
 
@@ -60,22 +29,31 @@ Similarly, the inclusion of photos and other multimedia files is also pending, a
 
 Despite these outstanding aspects, the web design project for the comparsa Alexpama has successfully implemented best practices and utilized technologies such as HTML, CSS, Sass, and JavaScript to create an attractive and functional website. Once the outstanding elements are completed, the website will be complete and ready to offer a comprehensive experience to visitors and users.
 
+## Estructura / Structure
 
-### Structure
+- `img/`: contiene los archivos de imágenes
+- `ico/`: contiene el favicon
+- `css/`: contiene los archivos CSS generados a partir de los archivos Sass
+- `js/`: contiene el archivo JavaScript que se agregó al proyecto
+- `json/`: contiene archivos json con variables para los scripts
+- `pages/`: contiene los demás archivos HTML (Contacto, Nosotros, Anteriores, Galería, Presentación Actual)
+- `index.html`: es el archivo HTML principal del sitio web
 
-Repository Structure:
-The repository is organized as follows:
+## Cómo utilizar / How to Use
 
-img/: contains image files
+[Sigue el siguiente enlace / Follow the link](https://fedemoretto11.github.io/alexpama/pages/contacto.html)
 
-ico/: contains the favicon
+## Contacto / Contact
 
-css/: contains the CSS files generated from the Sass files.
+Para cualquier consulta o sugerencia, puedes contactarnos en:
 
-js/: contains the JavaScript file that was added to the project.
+For any inquiries or suggestions, you can contact us at:
 
-json/: contains json files with variables for the scripts.
+- Nombre: Federico Moretto
+- Email: federico.moretto@example.com
 
-pages/: contains the other HTML files (Contacto, Nosotros, Anteriores, Galeria, Presentacion Actual)
+---
 
-index.html: the main HTML file of the website.
+**Nota:** Este archivo README está disponible tanto en español como en inglés. Puedes seleccionar el idioma utilizando los enlaces correspondientes al principio del archivo.
+
+**Note:** This README file is available in both Spanish and English. You can select the language using the corresponding links at the beginning of the file.
