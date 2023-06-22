@@ -48,10 +48,4 @@ Para cualquier consulta o sugerencia, puedes contactarnos en:
 For any inquiries or suggestions, you can contact us at:
 
 - Nombre: Federico Moretto
-- Email: federico.moretto@example.com
-
----
-
-**Nota:** Este archivo README está disponible tanto en español como en inglés. Puedes seleccionar el idioma utilizando los enlaces correspondientes al principio del archivo.
-
-**Note:** This README file is available in both Spanish and English. You can select the language using the corresponding links at the beginning of the file.
+- Email: fedemoretto94@gmail.com
